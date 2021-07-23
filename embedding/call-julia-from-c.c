@@ -12,6 +12,8 @@ int main(int argc, char *argv[])
 
     /* run Julia commands */
     jl_eval_string("print(sqrt(2.0))");
+    jl_eval_string("include('../model/solver.jl')");
+    jl_eval_string("x = randn(Float32, 9); neural_collision(x)");
 
     /* strongly recommended: notify Julia that the
          program is about to terminate. this allows
@@ -19,6 +21,6 @@ int main(int argc, char *argv[])
          and run all finalizers
     */
     jl_atexit_hook(0);
-    
+
     return 0;
 }

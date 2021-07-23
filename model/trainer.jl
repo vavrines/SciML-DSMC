@@ -1,4 +1,4 @@
-using Kinetic, DataFrames, Flux, LinearAlgebra, JLD2, Kinetic.KitML.DiffEqFlux
+using Kinetic, DataFrames, Flux, LinearAlgebra, JLD2
 
 isNewStart = true#false
 cd(@__DIR__)
