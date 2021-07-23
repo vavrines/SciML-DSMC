@@ -1,5 +1,5 @@
 // https://docs.julialang.org/en/v1/manual/embedding/
-// enviroment: export JULIA_DIR = JULIA_DIR=/opt/julia-1.6.1/ (for example)
+// enviroment: export JULIA_DIR=/opt/julia-1.6.1/ (for example)
 // compilation: gcc -o exe -fPIC -I$JULIA_DIR/include/julia -L$JULIA_DIR/lib -Wl,-rpath,$JULIA_DIR/lib call-julia-from-c.c -ljulia
 
 #include <julia.h>
