@@ -2,7 +2,7 @@
 //Title:
 //        Direct Simulation Monte Carlo (DSMC) program for two-dimensional flows
 //Version:
-//        Version2 2.3.05
+//        Version 2.3.05
 //History:
 //        Written by Bijan Gosaheyshi, 7/2021.
 //******************************************************************************
