@@ -1303,8 +1303,8 @@ void Collision()
 
     for (n = 0; n < DST1.MNC; n++)
     {
-        i = DST2.CtIJ[0][n]; //row
-        j = DST2.CtIJ[1][n]; //column
+        i = DST2.CtIJ[0][n]; //column
+        j = DST2.CtIJ[1][n]; //row
         SN = DST2.CS[0][n];  //cell number of sampled done (will use it in AVN calculation)
 
         if (SN > 1)
