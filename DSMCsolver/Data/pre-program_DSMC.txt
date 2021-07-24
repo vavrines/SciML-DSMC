@@ -1,0 +1,89 @@
+1               #NEW/CONTINUING Simulation 1/0
+1               #NEW/CONTINUING Sampling 1/0
+1               #Use_Read()_values/OverRead&Implement basic parameters (from dsmcBasicInput.h): 1/0
+5.0             #Knudsen number (desired)
+200000.0          #particles per cell (desired) //40000
+1               #Cbx coordinate boundaryX
+1               #Cby coordinate boundaryY
+3               //IB=1 Stream; IB=2 Surface; IB=3 Periodic: //at #IB0    //x=0
+3               #IB1    //x=FW
+3               #IB2    //Y=0
+3               #IB3    //Y=FH
+273             //if there is a surface then: TSURF>0 diffuse, <0 specular, #TSURF0  //x=0 Surface Temperature
+273             //x=FW
+273             //Y=0
+273             //Y=FH
+4.17E-10        #Molecular Diameter
+273.            #Reference Temperature
+0.5             #Viscosity-temperature index varies btw [0.5,1] where 0.5 corresponds to the Hard Sphere model
+1               #Reciprocal of the VSS scattering parameter
+6.63E-26        #Molecular mass
+0.0             #WallvelX
+0.0             #WallvelY
+0.0             #VFX
+0.0             #VFY
+0.0             #GravX
+0.0000          #GravY
+273             #Temp Flow (K)
+1               #NIS:   NIS is the number of time steps between samples
+1               #NSP:   NSP is the number of samples between restart and output file updates
+1               #NPS:   NPS is the number of updates to reach assumed steady flow
+4000            #NPT:   NPT is the total number of iterations (limit of iterations)
+2               #Random Function Selector: 1:linear congruential algorithm; 2:Mersenne Twister
+1               #Random seed constant "0" or changing "1"
+0.0             #Fraction of CBX where at the bottom surface is specular
+-10             #Fraction of CBX where at the bottom surface there is a vertical surface with height H_S// Negative no vertical surface
+0.0             #Fraction of CBY which the hight of H_S is
+1               #Charlength selection CB0/or/CB1: 0/1
+1               #MinCellX
+1               #MinCellY
+273             #Temp of vertical surface
+
+
+==================================================================================
+==================================================================================
+==================================================================================
+==================================================================================
+==================================================================================
+#NEW/CONTINUING Simulation 1/0
+#NEW/CONTINUING Sampling 1/0
+#Knudsen number (desired)
+#particle per cell (desired)
+#Cbx coordinate boundaryX
+#Cby
+        //IB=1 Stream; IB=2 Surface; IB=3 Periodic:
+        //at
+#IB0    //x=0
+#IB1    //x=FW
+#IB2    //Y=0
+#IB3    //Y=FH
+           //if there is a surface then: TSURF>0 diffuse, <0 specular
+#TSURF0    //x=0 Surface Temperature
+#TSURF1    //x=FW
+#TSURF2    //Y=0
+#TSURF3    //Y=FH
+#Molecular Diameter
+#Reference Temperature
+#Viscosity-temperature index
+#Reciprocal of the VSS scattering parameter
+#Molecular mass
+#WallvelX
+#WallvelY
+#VFX
+#VFY
+#GravX
+#GravY
+#Temp Flow (K)
+#NIS:   NIS is the number of time steps between samples
+#NSP:   NSP is the number of samples between restart and output file updates
+#NPS:   NPS is the number of updates to reach assumed steady flow
+#NPT:   NPT is the total number of iterations (limit of iterations)
+#Random Function Selector: 1:linear congruential algorithm; 2:Mersenne Twister
+#Random seed constant "0" or changing "1"
+#Fraction of CBX where at the bottom surface is specular
+#Fraction of CBX where at the bottom surface there is a vertical surface with height H_S// Negative no vertical surface
+#Fraction of CBY which the hight of H_S is
+#Charlength selection CB0/or/CB1: 0/1
+#MinCellX
+#MinCellY
+#Temp of vertical surface
